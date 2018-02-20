@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { SidebarComponent } from './shared/sidebar/sidebar.component';
+import { TopbarComponent } from './shared/topbar/topbar.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SidebarComponent,
+    TopbarComponent
   ],
   imports: [
     BrowserModule
